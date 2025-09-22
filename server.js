@@ -12,7 +12,7 @@ async function getDeck(){
     }
 }
 
-async function setDeck(id){
+async function drawDeck(id){
     const url = 'https://www.deckofcardsapi.com/api/deck/{$id}/draw/?count=1';
     try{
         const response = await fetch(url)
